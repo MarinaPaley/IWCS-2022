@@ -1,8 +1,8 @@
---10. Из таблицы Sales.SalesTerritory 
---показать поля TerritoryID, [Name] и CountryRegionCode. 
---Все значения поля CountryRegionCode, равные US, 
---заменить на NULL. 
---Названия полей оставить без изменений.
+п»ї--10. РР· С‚Р°Р±Р»РёС†С‹ Sales.SalesTerritory 
+--РїРѕРєР°Р·Р°С‚СЊ РїРѕР»СЏ TerritoryID, [Name] Рё CountryRegionCode. 
+--Р’СЃРµ Р·РЅР°С‡РµРЅРёСЏ РїРѕР»СЏ CountryRegionCode, СЂР°РІРЅС‹Рµ US, 
+--Р·Р°РјРµРЅРёС‚СЊ РЅР° NULL. 
+--РќР°Р·РІР°РЅРёСЏ РїРѕР»РµР№ РѕСЃС‚Р°РІРёС‚СЊ Р±РµР· РёР·РјРµРЅРµРЅРёР№.
 SELECT 
 	  TerritoryID
 	, [Name]

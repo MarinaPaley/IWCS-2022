@@ -1,6 +1,6 @@
--- 4. Показать ID сотрудников (BusinessEntityID),
---существующую (NOT NULL) квоты продаж (SalesQuota)
--- и дополнительные продажи (Bonus) из таблицы Sales.SalesPerson.
+п»ї-- 4. РџРѕРєР°Р·Р°С‚СЊ ID СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ (BusinessEntityID),
+--СЃСѓС‰РµСЃС‚РІСѓСЋС‰СѓСЋ (NOT NULL) РєРІРѕС‚С‹ РїСЂРѕРґР°Р¶ (SalesQuota)
+-- Рё РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РїСЂРѕРґР°Р¶Рё (Bonus) РёР· С‚Р°Р±Р»РёС†С‹ Sales.SalesPerson.
 SELECT 
 	  BusinessEntityID
 	, SalesQuota

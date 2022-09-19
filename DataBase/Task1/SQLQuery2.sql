@@ -1,4 +1,4 @@
---2. Показать поля ProductID, DocumentNode 
---из таблицы Production.ProductDocument.
+п»ї--2. РџРѕРєР°Р·Р°С‚СЊ РїРѕР»СЏ ProductID, DocumentNode 
+--РёР· С‚Р°Р±Р»РёС†С‹ Production.ProductDocument.
 SELECT ProductID, DocumentNode
 FROM Production.ProductDocument;

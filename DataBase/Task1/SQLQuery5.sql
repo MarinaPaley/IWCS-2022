@@ -1,6 +1,6 @@
--- 5. Показать поля ProductAssemblyID и UnitMeasureCode
--- из таблицы Production.BillOfMaterials, 
--- где значения поля UnitMeasureCode содержат ‘OZ’.
+п»ї-- 5. РџРѕРєР°Р·Р°С‚СЊ РїРѕР»СЏ ProductAssemblyID Рё UnitMeasureCode
+-- РёР· С‚Р°Р±Р»РёС†С‹ Production.BillOfMaterials, 
+-- РіРґРµ Р·РЅР°С‡РµРЅРёСЏ РїРѕР»СЏ UnitMeasureCode СЃРѕРґРµСЂР¶Р°С‚ вЂOZвЂ™.
 SELECT 
 	  ProductAssemblyID 
 	, UnitMeasureCode

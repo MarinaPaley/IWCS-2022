@@ -1,10 +1,10 @@
---6.Из таблицы Production.[Location] 
---показать ID местоположения и название 
---магазина (LocationID и [Name]). 
---Название магазина должно быть или 
---Metal Storage, или Paint Storage, 
---или Finished Goods Storage. 
---Использовать оператор IN.
+п»ї--6.РР· С‚Р°Р±Р»РёС†С‹ Production.[Location] 
+--РїРѕРєР°Р·Р°С‚СЊ ID РјРµСЃС‚РѕРїРѕР»РѕР¶РµРЅРёСЏ Рё РЅР°Р·РІР°РЅРёРµ 
+--РјР°РіР°Р·РёРЅР° (LocationID Рё [Name]). 
+--РќР°Р·РІР°РЅРёРµ РјР°РіР°Р·РёРЅР° РґРѕР»Р¶РЅРѕ Р±С‹С‚СЊ РёР»Рё 
+--Metal Storage, РёР»Рё Paint Storage, 
+--РёР»Рё Finished Goods Storage. 
+--РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РѕРїРµСЂР°С‚РѕСЂ IN.
 SELECT 
 	  LocationID
 	, [Name] 

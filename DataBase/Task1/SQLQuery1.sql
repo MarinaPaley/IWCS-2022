@@ -1,3 +1,3 @@
--- 1. Показать все поля из таблицы Production.ProductModelProductDescriptionCulture. 
+п»ї-- 1. РџРѕРєР°Р·Р°С‚СЊ РІСЃРµ РїРѕР»СЏ РёР· С‚Р°Р±Р»РёС†С‹ Production.ProductModelProductDescriptionCulture. 
 SELECT *
 FROM Production.ProductModelProductDescriptionCulture;

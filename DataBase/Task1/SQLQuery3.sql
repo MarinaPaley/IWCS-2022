@@ -1,5 +1,5 @@
---3. Èç òàáëèöû Sales.PersonCreditCard ïîêàçàòü âñå ïîëÿ, 
---åñëè çíà÷åíèÿ ïîëÿ CreditCardID áîëüøå?19000.
+ï»¿--3. Ð˜Ð· Ñ‚Ð°Ð±Ð»Ð¸Ñ†Ñ‹ Sales.PersonCreditCard Ð¿Ð¾ÐºÐ°Ð·Ð°Ñ‚ÑŒ Ð²ÑÐµ Ð¿Ð¾Ð»Ñ, 
+--ÐµÑÐ»Ð¸ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ Ð¿Ð¾Ð»Ñ CreditCardID Ð±Ð¾Ð»ÑŒÑˆÐµ?19000.
 SELECT *
 FROM Sales.PersonCreditCard 
 WHERE CreditCardID > 19000;

@@ -1,9 +1,9 @@
--- 7. Показать поля BusinessEntityID, 
---PersonType, Title и LastName из таблицы Person.Person. 
---Все неизвестные значения поля Title заменить на 'Dear.'. 
---Названия полей оставить без изменения.
+п»ї-- 7. РџРѕРєР°Р·Р°С‚СЊ РїРѕР»СЏ BusinessEntityID, 
+--PersonType, Title Рё LastName РёР· С‚Р°Р±Р»РёС†С‹ Person.Person. 
+--Р’СЃРµ РЅРµРёР·РІРµСЃС‚РЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ РїРѕР»СЏ Title Р·Р°РјРµРЅРёС‚СЊ РЅР° 'Dear.'. 
+--РќР°Р·РІР°РЅРёСЏ РїРѕР»РµР№ РѕСЃС‚Р°РІРёС‚СЊ Р±РµР· РёР·РјРµРЅРµРЅРёСЏ.
 SELECT 
 	  PersonType
-	, ISNULL(Title, N'Уважаемый') AS '??'
+	, ISNULL(Title, N'РЈРІР°Р¶Р°РµРјС‹Р№') AS Title
 	, LastName
 FROM Person.Person;

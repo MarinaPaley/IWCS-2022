@@ -1,6 +1,6 @@
---9.Показать и отсортировать в обратном алфавитном порядке 
---все уникальные значения поля CultureID из 
---таблицы Production.ProductModelProductDescriptionCulture.
+п»ї--9.РџРѕРєР°Р·Р°С‚СЊ Рё РѕС‚СЃРѕСЂС‚РёСЂРѕРІР°С‚СЊ РІ РѕР±СЂР°С‚РЅРѕРј Р°Р»С„Р°РІРёС‚РЅРѕРј РїРѕСЂСЏРґРєРµ 
+--РІСЃРµ СѓРЅРёРєР°Р»СЊРЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ РїРѕР»СЏ CultureID РёР· 
+--С‚Р°Р±Р»РёС†С‹ Production.ProductModelProductDescriptionCulture.
 SELECT DISTINCT CultureID
 FROM Production.ProductModelProductDescriptionCulture
 ORDER BY CultureID DESC;
