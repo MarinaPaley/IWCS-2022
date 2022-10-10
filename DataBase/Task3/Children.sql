@@ -1,0 +1,56 @@
+--DROP TABLE Children;
+CREATE TABLE Children
+(
+	  ID INT
+	, ID_Mama INT
+	, ID_Papa INT
+	, Document INT
+	, FirstName NVARCHAR(15)
+	, FamilyName NVARCHAR(15)
+	, MiddleName NVARCHAR(15)
+	, BirthDate DATE
+	, Gender NCHAR(2)
+);
+
+
+ALTER TABLE Children
+ALTER COLUMN ID INT NOT NULL;
+
+ALTER TABLE Children
+ADD CONSTRAINT c_PK_Children
+PRIMARY KEY(Id);
+
+ALTER TABLE Children
+ADD CONSTRAINT fk_Children_Mama
+FOREIGN KEY(ID_Mama)
+REFERENCES Parents(ID);
+
+ALTER TABLE Children
+ADD CONSTRAINT fk_Children_Papa
+FOREIGN KEY(ID_Papa)
+REFERENCES Parents(ID);
+
+ALTER TABLE Children
+ALTER COLUMN Document NVARCHAR(15)
+NOT NULL;
+
+ALTER TABLE Children
+ADD CONSTRAINT u_Doc_Children
+UNIQUE(Document);
+
+ALTER TABLE Children
+ALTER COLUMN FirstName NVARCHAR(15) 
+NOT NULL;
+
+ALTER TABLE Children
+ALTER COLUMN FamilyName NVARCHAR(15) 
+NOT NULL;
+
+ALTER TABLE Children
+ALTER COLUMN BirthDate DATE
+NOT NULL;
+
+ALTER TABLE Children
+ALTER COLUMN 
+Gender NCHAR(2)
+NOT NULL;
