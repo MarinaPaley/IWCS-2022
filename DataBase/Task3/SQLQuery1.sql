@@ -4,8 +4,8 @@ WHERE p.ID = c.ID_Mama
 
 --INNER JOIN.. ON
 SELECT c.ID
-	 , p.FamilyName AS 'Фамилия мамы'
-	 , p.FirstName AS 'Имя мамы'
+	 , p.FamilyName AS 'вЂР°РјРёР»РёВ¤ РјР°РјС‹'
+	 , p.FirstName AS 'В»РјВ¤ РјР°РјС‹'
 	 , p.MiddleName
 	 , p2.FamilyName
 	 , p2.FirstName
